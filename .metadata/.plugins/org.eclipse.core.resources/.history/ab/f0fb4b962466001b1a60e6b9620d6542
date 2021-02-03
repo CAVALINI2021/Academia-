@@ -1,0 +1,48 @@
+package br.com.academia;
+
+public class Academia {
+
+	public static void main(String[] args) {
+		
+		
+		private string nome;
+		private double peso;
+		private double altura;
+		private string idade;
+		private string sexo;
+
+		
+		// PESO
+		public void setPeso(double peso) {
+			this.peso = peso;
+			
+		}
+		
+		public double getPeso() {
+			return this.peso;
+		}	
+		
+		//ALTURA 
+		public void setAltura(double altura) {
+			this.altura = altura;
+			
+		}
+		
+		public double getAltura() {
+			return this.altura;
+		}	
+		
+		
+		
+		// Método para calcular IMC
+		public double calcularImc() {
+			return this.peso / this.altura(2);	
+		}
+		
+		// Método para calcular NCD
+		public double calcularImc() {
+			return this.peso / this.altura;	
+		}
+	}
+
+}

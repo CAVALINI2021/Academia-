@@ -1,0 +1,2 @@
+INDEX VERSION 1.130+C:\Users\20272544\Academia\.metadata\.plugins\org.eclipse.jdt.core
+3105325953.index

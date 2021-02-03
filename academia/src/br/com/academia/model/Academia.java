@@ -1,0 +1,41 @@
+package br.com.academia.model;
+
+import br.com.academia.$missing$;
+
+public class Academia {
+
+public static void main(String[] args) {
+		
+		
+		private String nome;
+		private double peso;
+		private double altura;
+		private String idade;
+		private String sexo;
+
+		
+		// PESO
+		public void setPeso(double peso) {
+			this.peso = peso;
+			
+		}
+		
+		public double getPeso() {
+			return this.peso;
+		}	
+		
+		//ALTURA 
+		public void setAltura(double altura) {
+			this.altura = altura;
+			
+		}
+		
+		public double getAltura() {
+			return this.altura;
+		}	
+		
+			
+	
+		}
+	}
+}
